@@ -10,6 +10,7 @@ int8 RUNNING = 2
 int8 CONFIG_NEEDED = 3
 int8 ERROR = 4
 int8 INTERACTION_REQUEST = 5
+int8 DEACTIVATED = 6
 int8 status_id
 
 # an individual message for config or error cases
