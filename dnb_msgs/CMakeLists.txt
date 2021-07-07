@@ -52,6 +52,8 @@ add_message_files(
   FILES
   ComponentStatus.msg
   StringMultiArray.msg
+  Argument.msg
+  Program.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -59,6 +61,8 @@ add_service_files(
   FILES
   SetString.srv
   SetInt32.srv
+  GetProgramsList.srv
+  RunProgramWithArguments.srv
 )
 
 ## Generate actions in the 'action' folder
