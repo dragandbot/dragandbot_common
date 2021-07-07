@@ -60,6 +60,7 @@ add_message_files(
 add_service_files(
   FILES
   SetString.srv
+  SetInt32.srv
   GetProgramsList.srv
   RunProgramWithArguments.srv
 )
