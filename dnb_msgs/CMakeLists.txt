@@ -51,12 +51,14 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   ComponentStatus.msg
+  StringMultiArray.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
   SetString.srv
+  SetInt32.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -116,7 +118,7 @@ catkin_package(
 ## Your package locations should be listed before other locations
 include_directories(
 # include
-# ${catkin_INCLUDE_DIRS}
+ ${catkin_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
