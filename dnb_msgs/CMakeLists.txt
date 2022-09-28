@@ -54,6 +54,7 @@ add_message_files(
   StringMultiArray.msg
   Argument.msg
   Program.msg
+  KeTopStatus.msg
 )
 
 ## Generate services in the 'srv' folder
