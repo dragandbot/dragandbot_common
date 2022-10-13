@@ -54,6 +54,8 @@ add_message_files(
   StringMultiArray.msg
   Argument.msg
   Program.msg
+  ToastMessage.msg
+  ToastTranslation.msg
 )
 
 ## Generate services in the 'srv' folder
