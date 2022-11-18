@@ -1,2 +1,0 @@
-string language_code
-string value

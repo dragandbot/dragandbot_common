@@ -55,8 +55,6 @@ add_message_files(
   Argument.msg
   Program.msg
   KeTopStatus.msg
-  ToastMessage.msg
-  ToastTranslation.msg
 )
 
 ## Generate services in the 'srv' folder
