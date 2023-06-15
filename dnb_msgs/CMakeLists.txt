@@ -57,6 +57,8 @@ add_message_files(
   KeTopStatus.msg
   ToastMessage.msg
   ToastTranslation.msg
+  DatastoreExternalEntry.msg
+  DatastoreExternalSourceUpdate.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -66,6 +68,7 @@ add_service_files(
   SetInt32.srv
   GetProgramsList.srv
   RunProgramWithArguments.srv
+  ConfigureDatastoreExternalSource.srv
 )
 
 ## Generate actions in the 'action' folder
