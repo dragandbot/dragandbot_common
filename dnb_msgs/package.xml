@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>dnb_msgs</name>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <description>The dnb_msgs package</description>
   <maintainer email="support@dragandbot.com">Pablo Quilez</maintainer>
   <license>BSD</license>
